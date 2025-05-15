@@ -13,17 +13,17 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: './components/Accueil.vue',
+      path: '/accueil.vue',
       name : 'Accueil',
       component : Accueil
     },
     {
-      path: './components/Actions.vue',
+      path: '/actions.vue',
       name : 'Actions',
       component : Actions,
     },
     {
-      path: './components/Formulaire',
+      path: '/formulaire',
       name : 'Formulaire',
       component : Formulaire
     },
